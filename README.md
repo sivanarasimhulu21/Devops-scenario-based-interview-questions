@@ -1,9 +1,10 @@
 
 # DevOps Scenario-Based Interview Questions
 
-A growing, practical knowledge base of real-world DevOps, SRE, Cloud, Linux, CI/CD, infrastructure, monitoring, and production troubleshooting scenarios.
+A continuously growing collection of real-world DevOps, SRE, Cloud, Linux, CI/CD, troubleshooting, and production support scenarios.
 
 This repository documents how to investigate problems, identify root causes, apply fixes, and explain solutions in technical interviews.
+
 
 ## Objectives
 
@@ -15,65 +16,31 @@ This repository documents how to investigate problems, identify root causes, app
 
 ## Technology Coverage
 
-Linux | AWS | Docker | Kubernetes | Jenkins | CI/CD | Git | Maven | Terraform | Ansible | Prometheus | Grafana | Networking | Security | Production Support
+- Linux Administration
+- AWS and Cloud Computing
+- Docker and Containers
+- Jenkins and CI/CD
+- Kubernetes
+- Terraform and Ansible
+- Prometheus and Grafana
+- Networking and Security
+- Git and Maven
+- Production Troubleshooting
 
 ## Scenario Index
 
-Each scenario has a unique ID and its own Markdown file.
-
-### 01. Linux Administration
-
-| ID | Scenario | File |
+| Scenario | Description | File |
 |---|---|---|
-| SCN-001 | Linux disk usage reaches 100% | [Read scenario](01-linux/SCN-001-disk-usage-100-percent.md) |
-| SCN-002 | Linux server has high CPU usage | [Read scenario](01-linux/SCN-002-high-cpu-usage.md) |
-| SCN-003 | Linux server fails to boot | [Read scenario](01-linux/SCN-003-linux-server-not-booting.md) |
-
-### 02. AWS and Cloud
-
-| ID | Scenario | File |
-|---|---|---|
-| SCN-004 | EC2 instance is unreachable | [Read scenario](02-aws-cloud/SCN-004-ec2-instance-unreachable.md) |
-
-### 03. Docker and Containers
-
-| ID | Scenario | File |
-|---|---|---|
-| SCN-005 | Docker container keeps restarting | [Read scenario](03-docker-containers/SCN-005-container-keeps-restarting.md) |
-
-### 04. Jenkins and CI/CD
-
-| ID | Scenario | File |
-|---|---|---|
-| SCN-006 | Jenkins pipeline fails | [Read scenario](04-cicd-jenkins/SCN-006-jenkins-pipeline-failed.md) |
-
-### 05. Kubernetes
-
-| ID | Scenario | File |
-|---|---|---|
-| SCN-007 | Kubernetes pod enters CrashLoopBackOff | [Read scenario](05-kubernetes/SCN-007-pod-crashloopbackoff.md) |
-
-### 06. Terraform and Ansible
-
-Add infrastructure provisioning and configuration management scenarios here.
-
-### 07. Monitoring and Observability
-
-Add Prometheus, Grafana, alerting, logging, and incident detection scenarios here.
-
-### 08. Networking and Security
-
-Add DNS, ports, routing, firewalls, TLS, IAM, and access-control scenarios here.
-
-### 09. Git, Maven and Artifacts
-
-Add Git conflicts, build failures, dependency problems, and artifact repository scenarios here.
-
-### 10. Production Incidents
-
-Add outages, failed deployments, service degradation, rollback, and recovery scenarios here.
-
----
+| Scenario 1 | Linux disk usage reaches 100% | [Open](Scenario-1.md) |
+| Scenario 2 | Linux server has high CPU usage | [Open](Scenario-2.md) |
+| Scenario 3 | Linux server fails to boot | [Open](Scenario-3.md) |
+| Scenario 4 | AWS EC2 instance is unreachable | [Open](Scenario-4.md) |
+| Scenario 5 | Docker container keeps restarting | [Open](Scenario-5.md) |
+| Scenario 6 | Jenkins pipeline fails | [Open](Scenario-6.md) |
+| Scenario 7 | Kubernetes pod enters CrashLoopBackOff | [Open](Scenario-7.md) |
+| Scenario 8 | Terraform apply fails | [Open](Scenario-8.md) |
+| Scenario 9 | Prometheus target is down | [Open](Scenario-9.md) |
+| Scenario 10 | Nginx returns 502 Bad Gateway | [Open](Scenario-10.md) |
 
 
 
@@ -86,9 +53,27 @@ Add outages, failed deployments, service degradation, rollback, and recovery sce
 - Explain the root cause in your own words.
 - Update the index whenever you add a scenario.
 
+ ## Standard Scenario Format
+
+Each scenario aims to include:
+
+1. Problem Statement
+2. Environment and Symptoms
+3. Possible Root Causes
+4. Investigation Steps and Commands
+5. Solution
+6. Verification
+7. Prevention and Best Practices
+8. Interview-Ready Explanation
+
+## Purpose
+
+Build a long-term technical knowledge base for DevOps and SRE learning, hands-on troubleshooting, and technical interview preparation.
+  
+
 ## Contribution and Maintenance
 
-This repository is maintained as a continuously growing personal learning resource.
+This repository is a continuously growing knowledge base for everyone to learn and practice real-world DevOps scenarios.
 
 New scenarios may be added as new technologies, incidents, interview questions, and lessons are encountered.
 
@@ -97,3 +82,7 @@ New scenarios may be added as new technologies, incidents, interview questions, 
 ---
 
 Maintained by [Siva Narasimhulu](https://github.com/Sivanarasimhulu21)
+
+
+
+
