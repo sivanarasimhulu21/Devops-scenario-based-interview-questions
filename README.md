@@ -75,41 +75,7 @@ Add outages, failed deployments, service degradation, rollback, and recovery sce
 
 ---
 
-## File Naming Convention
 
-Use this format for every new scenario:
-
-`SCN-NNN-short-descriptive-title.md`
-
-Examples:
-
-- `SCN-008-terraform-apply-failed.md`
-- `SCN-009-prometheus-target-down.md`
-- `SCN-010-nginx-502-bad-gateway.md`
-
-Rules:
-
-1. Assign the next unused global scenario ID.
-2. Use lowercase filenames with hyphens.
-3. Keep one main problem in each file.
-4. Place the file in the appropriate category folder.
-5. Add a link and short description to this README.
-6. Never reuse an existing scenario ID.
-
-## Standard Scenario Format
-
-Every scenario should contain:
-
-1. Scenario title and ID
-2. Problem statement
-3. Environment and symptoms
-4. Possible causes
-5. Investigation steps and commands
-6. Root cause
-7. Solution and verification
-8. Prevention and best practices
-9. Interview-ready explanation
-10. References, if applicable
 
 ## How to Use This Repository
 
